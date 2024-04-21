@@ -5,3 +5,155 @@
 
 /* BLOCKS */
 @import "./blocks/header.scss";
+
+
+
+.main-header__logo {
+  height: 85px;
+  text-align: center;
+
+  @media (min-width: $tablet-width) {
+    order: 2;
+    height: 400px;
+
+    background-color: #000000;
+    background-image: url("../img/bg-header.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% -9px;
+
+    @media (min-resolution: 2dppx) {
+      background-image: url("../img/bg-header@2x.jpg");
+      background-size: 1338px auto;
+    }
+  }
+
+  @media (min-width: $desktop-width) {
+    height: 648px;
+    background-position: 50% 0;
+    background-size: cover;
+  }
+}
+
+.main-header__logo img {
+  width: 226px;
+  height: 85px;
+
+  @media (min-width: $tablet-width) {
+    display: block;
+    width: 370px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 40px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-top: 57px;
+  }
+}
+
+.advertisment {
+  background-color: #000000;
+  background-image: url("../img/index-can-mobile.png");
+
+  @media (min-width: $tablet-width) {
+    background-color: #000000;
+    background-image: url("../img/index-can-tablet.png");
+    background-repeat: no-repeat;
+    background-position: 50% -9px;
+
+    @media (min-resolution: 2dppx) {
+      background-image: url("../img/index-can-tablet@2x.png");
+      background-size: 1338px auto;
+    }
+  }
+
+  @media (min-width: $desktop-width) {
+    background-image: url("../img/index-can.png");
+    width: 552px;
+    height: 499px;
+    background-position: 50% 0;
+    background-size: cover;
+  }
+}
+
+
+.catalog-slim {
+  background-image: url("../img/cat.png");
+    width: 552px;
+    height: 499px;
+    background-position: 50% 0;
+    background-size: cover;
+
+  @media (min-width: $tablet-width) {
+    background-color: #000000;
+    background-image: url("../img/cat-tablet.png");
+    background-repeat: no-repeat;
+    background-position: 50% -9px;
+
+    @media (min-resolution: 2dppx) {
+      background-image: url("../img/cat-tablet@2x.png");
+      background-size: 1338px auto;
+    }
+  }
+
+  @media (min-width: $desktop-width) {
+    background-image: url("../img/cat-desktop.png");
+    width: 552px;
+    height: 499px;
+    background-position: 50% 0;
+    background-size: cover;
+  }
+
+}
+
+.catalog-pro {
+  background-image: url("../img/tiger.png");
+    width: 552px;
+    height: 499px;
+    background-position: 50% 0;
+    background-size: cover;
+
+    @media (min-width: $tablet-width) {
+      background-color: #000000;
+      background-image: url("../img/tiger-tablet.png");
+      background-repeat: no-repeat;
+      background-position: 50% -9px;
+
+      @media (min-resolution: 2dppx) {
+        background-image: url("../img/tiger-tablet@2x.png");
+        background-size: 1338px auto;
+      }
+    }
+
+    @media (min-width: $desktop-width) {
+      background-image: url("../img/tiger-desktop.png");
+      width: 552px;
+      height: 499px;
+      background-position: 50% 0;
+      background-size: cover;
+    }
+}
+
+.work-explanation__description-1::before {
+  background-image: url("../images/icon-leaf.svg");
+  background-size: 1338px auto;
+}
+
+
+.additionals-card {
+  background-image: url("../img/cat-box.png");
+  width: 552px;
+  height: 499px;
+/*
+  <picture>
+  <source media="(min-width: 1200px)" width="294" height="294" type="image/jpeg" srcset="img/photo-3-desktop.jpg 1x, img/photo-3-desktop@2x.jpg 2x">
+  <source media="(min-width: 768px)" width="270" height="293" type="image/jpeg" srcset="img/photo-3-tablet.jpg 1x, img/photo-3-tablet@2x.jpg 2x">
+  <img class="works-item__image" src="img/photo-3-phone.jpg" srcset="img/photo-3-phone@2x.jpg 2x" width="280" height="176" alt="Пример нашей работы.">
+</picture>*/
+}
+
+.additionals-card__link::before {
+  background-image: url("../img/icon-gift.png");
+  width: 552px;
+  height: 499px;
+}
