@@ -7,7 +7,7 @@
 @import "./blocks/header.scss";
 
 
-
+/*
 .main-header__logo {
   height: 85px;
   text-align: center;
@@ -144,12 +144,12 @@
   background-image: url("../img/cat-box.png");
   width: 552px;
   height: 499px;
-/*
+
   <picture>
   <source media="(min-width: 1200px)" width="294" height="294" type="image/jpeg" srcset="img/photo-3-desktop.jpg 1x, img/photo-3-desktop@2x.jpg 2x">
   <source media="(min-width: 768px)" width="270" height="293" type="image/jpeg" srcset="img/photo-3-tablet.jpg 1x, img/photo-3-tablet@2x.jpg 2x">
   <img class="works-item__image" src="img/photo-3-phone.jpg" srcset="img/photo-3-phone@2x.jpg 2x" width="280" height="176" alt="Пример нашей работы.">
-</picture>*/
+</picture>
 }
 
 .additionals-card__link::before {
@@ -157,3 +157,26 @@
   width: 552px;
   height: 499px;
 }
+
+
+.page__body {
+  @media (min-width: $desktop-width) {
+    background-image: url("../img/hero-background.jpg");
+    width: 720px;
+    height: 694px;
+}
+
+@media (min-width: $mobile-width) {
+  background-color: #ffffff;
+  background-image: url("../img/hero-background.jpg");
+  background-repeat: no-repeat;
+  width: 720px;
+  height: 694px;
+
+  @media (min-resolution: 2dppx) {
+    background-image: url("../img/hero-background@2x.jpg");
+    background-size: 1338px auto;
+  }
+
+}
+/*
