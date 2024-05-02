@@ -1,11 +1,16 @@
 .main-header {
-
+  display: flex;
+  padding: 20px 21px 20px 20px;
+  box-sizing: border-box;
 }
 
 .main-header__logo {
-
+  width: 33px;
+  height: 38px;
 }
 
 .main-header__title {
-
+  width: 101px;
+  height: 18px;
 }
+/* не ясно как работать с размерами всего логотипа */

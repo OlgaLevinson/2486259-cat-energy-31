@@ -1,11 +1,18 @@
 /* GLOBAL */
-@import "./common/variables.scss";
-@import "./common/global.scss";
+@import "./global/mixins.scss";
+@import "./global/fonts.scss";
+@import "./global/global.scss";
+
+/* COMMON */
+@import "./global/mixins.scss";
 @import "./common/fonts.scss";
+@import "./common/global.scss";
+@import "./common/variables.scss";
 @import "./common/button.scss";
 @import "./common/logo.scss";
 
 /* BLOCKS */
+/*  первым сделать батон main class="main-container куда? */
 @import "./blocks/page.scss";
 @import "./blocks/main-header.scss";
 @import "./blocks/main-nav.scss";

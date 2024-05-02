@@ -1,27 +1,71 @@
 .product-row {
-
+  display: flex;
+  width: 140px;
+  height: 48px;
 }
 
 .product-row__mass {
-
+  width: 35px;
+  height: 16px;
+  font-family: "Lato";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: center;
+  color: #444444;
 }
 
 .product-row__amount {
-
+  width: 29px;
+  height: 16px;
+  font-family: "Lato";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: center;
+  color: #444444;
 }
 
 .product-row__taste {
-
+  width: 26px;
+  height: 16px;
+  font-family: "Lato";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: center;
+  color: #444444;
 }
 
 .product-row__taste-variant {
-
+  width: 41px;
+  height: 16px;
+  font-family: "Lato";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: center;
+  color: #444444;
 }
 
 .product-row__price {
-
+  width: 29px;
+  height: 16px;
+  font-family: "Lato";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: center;
+  color: #444444;
 }
 
 .product-row__amount {
-
+  width: 35px;
+  height: 16px;
+  font-family: "Lato";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: center;
+  color: #444444;
 }

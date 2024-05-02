@@ -1,4 +1,4 @@
-.card {
+/* .card {
 
 }
 
@@ -8,12 +8,32 @@
 
 .card__title {
 
-}
+}  */
 
 .card__name {
-
+  width: 76px;
+  height: 41px;
+  font-family: "Oswald";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  background: #222222;
 }
 
+.card__description {
+  width: 219px;
+  height: 16px;
+  font-family: "Lato";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: center;
+  color: #444444;
+}
+
+
+/*
 .card__button {
 
 }
@@ -24,4 +44,4 @@
 
 .card__button--secondary {
 
-}
+} */

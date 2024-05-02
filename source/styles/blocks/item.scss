@@ -1,27 +1,56 @@
-.item {
-  color: #ffffff;
-}
+/* .item {
+
+} */
 
 .item__title {
-
+  width: 130px;
+  height: 16px;
+  font-family: Oswald;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: center;
+  color: #222222;
 }
 
 .item__amount {
-
+  width: 118px;
+  height: 14px;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  text-align: center;
+  color: #444444;
 }
 
 .item__price {
-
+  width: 37px;
+  height: 14px;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  text-align: right;
+  color: #444444;
 }
 
+/*
 .item__button {
 
 }
 
 .item__button--order {
 
-}
+} */
 
 .item__link {
-
+  width: 161px;
+  height: 60.02px;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+  background: #FFFFFF;
 }

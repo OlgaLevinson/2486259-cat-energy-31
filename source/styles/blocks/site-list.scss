@@ -1,11 +1,45 @@
-.site-list {
+/* .site-list {
 
-}
+} */
 
 .site-list__item {
-
+  padding: 22px 22px 24px;
 }
 
+.site-list__main {
+  width: 71px;
+  height: 20px;
+  font-family: "Oswald", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  color: #000000;
+}
+
+.site-list__catalog {
+  width: 171px;
+  height: 20px;
+  font-family: "Oswald";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  color: #000000;
+}
+
+.site-list__programm {
+  width: 170px;
+  height: 20px;
+  font-family: "Oswald";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  color: #000000;
+}
+
+/*
 .site-list__item--current {
 
-}
+} */
