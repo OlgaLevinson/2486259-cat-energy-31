@@ -1,17 +1,13 @@
-/* GLOBAL */
-@import "./global/variables.scss";
-@import "./global/mixins.scss";
-@import "./global/fonts.scss";
-@import "./global/global.scss";
-
 /* COMMON */
+@import "./common/mixins.scss";
+@import "./common/variables.scss";
 @import "./common/fonts.scss";
 @import "./common/global.scss";
-@import "./common/variables.scss";
-@import "./common/button.scss";
-@import "./common/logo.scss";
+
 
 /* BLOCKS */
+@import "./blocks/button.scss";
+@import "./blocks/logo.scss";
 @import "./blocks/page.scss";
 @import "./blocks/main-header.scss";
 @import "./blocks/main-nav.scss";
@@ -40,4 +36,4 @@
 @import "./blocks/cards.scss";
 @import "./blocks/item.scss";
 
-/*  первым сделать батон main class="main-container куда? */
+/*  main class="main-container куда? */

@@ -45,12 +45,24 @@
 } */
 
 .item__link {
+  position: relative;
   width: 161px;
-  height: 60.02px;
+  min-height: 290px;
   font-family: "Lato", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 20px;
   text-align: center;
   background: #ffffff;
+}
+
+.item__link::before {
+  display: block;
+  position: absolute;
+  content: "";
+  background-image: url("../../icons/stack.svg#icon-gift");
+  background-repeat: no-repeat;
+  background-size: 80px 80px;
+  width: 80px;
+  height: 80px;
 }
